@@ -10,7 +10,6 @@ A modern, responsive website for the Invoice Maker iOS app. Built with React, Vi
 - **SEO Optimized**: Proper meta tags and structured content
 - **Fast Loading**: Built with Vite for optimal performance
 
-
 ## Getting Started
 
 ### Prerequisites
@@ -46,4 +45,3 @@ A modern, responsive website for the Invoice Maker iOS app. Built with React, Vi
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
-
