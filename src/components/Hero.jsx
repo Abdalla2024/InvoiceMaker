@@ -45,7 +45,7 @@ const Hero = () => {
           <div className="phone-mockup">
             <div className="phone-screen">
               <img 
-                src={phoneHeroImage}
+                src={phone1}
                 alt="Invoice Maker on iPhone"
                 className="hero-screenshot"
                 loading="eager"
