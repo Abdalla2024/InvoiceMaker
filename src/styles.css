@@ -82,6 +82,15 @@ body {
     gap: 2rem;
 }
 
+/* Mobile hamburger button hidden on desktop */
+.hamburger {
+    display: none;
+    color: #111;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
 .nav-menu button {
     background: none;
     border: none;
@@ -681,6 +690,10 @@ body {
         display: none;
     }
 
+    .hamburger {
+        display: inline-flex;
+    }
+
     .hero {
         padding: 6rem 0;
         min-height: auto;
@@ -727,6 +740,50 @@ body {
     .privacy-section h3 {
         font-size: 1.2rem;
     }
+}
+
+/* Mobile dropdown menu */
+.mobile-menu {
+    position: fixed;
+    top: 72px;
+    right: 16px;
+    left: 16px;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
+    z-index: 999;
+}
+
+.mobile-menu ul {
+    list-style: none;
+    padding: 8px;
+}
+
+.mobile-menu li {
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.mobile-menu li:last-child {
+    border-bottom: none;
+}
+
+.mobile-menu a,
+.mobile-menu button {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 14px 10px;
+    text-decoration: none;
+    color: #111;
+    background: transparent;
+    border: none;
+    font: inherit;
+}
+
+.mobile-menu a:hover,
+.mobile-menu button:hover {
+    background: #f8fafc;
 }
 
 @media (max-width: 480px) {

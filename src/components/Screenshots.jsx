@@ -1,23 +1,24 @@
-import invoiceFormImage from '../invoice-form.svg?url'
-import invoiceListImage from '../invoice-list.svg?url'
-import pdfPreviewImage from '../pdf-preview.svg?url'
+// Swap to use the provided PNG screenshots
+const fillOutPng = '/images/fillOut.png'
+const generatePng = '/images/generate.png'
+const invoicesPng = '/images/invoices.png'
 
 const Screenshots = () => {
   const screenshots = [
     {
-      title: "Invoice Creation", 
-      description: "Intuitive form interface for creating professional invoices with all necessary details",
-      image: invoiceFormImage
+      title: "Fill out details",
+      description: "Enter company and client info, items, tax, and notes in a clean SwiftUI form.",
+      image: fillOutPng
     },
     {
-      title: "Invoice Management",
-      description: "Manage all your invoices in one place with easy status tracking and organization",
-      image: invoiceListImage
+      title: "Generate PDF",
+      description: "Create a beautiful, paginated PDF ready to share or save to Files.",
+      image: generatePng
     },
     {
-      title: "PDF Preview",
-      description: "Preview and share beautiful PDF invoices that look professional on any device",
-      image: pdfPreviewImage
+      title: "Invoices list",
+      description: "Browse, search, filter by status, duplicate, and manage invoices in one place.",
+      image: invoicesPng
     }
   ]
 

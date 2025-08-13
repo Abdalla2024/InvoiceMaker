@@ -1,4 +1,5 @@
-import invoiceFormImage from '../invoice-form.svg?url'
+// Use the provided PNG at the top of the page
+const phoneHeroImage = '/images/phone1.png'
 
 const Hero = () => {
   const scrollToDownload = () => {
@@ -44,9 +45,10 @@ const Hero = () => {
           <div className="phone-mockup">
             <div className="phone-screen">
               <img 
-                src={invoiceFormImage} 
-                alt="Invoice Maker Interface"
+                src={phoneHeroImage}
+                alt="Invoice Maker on iPhone"
                 className="hero-screenshot"
+                loading="eager"
               />
             </div>
           </div>
