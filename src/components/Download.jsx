@@ -16,7 +16,7 @@ const Download = () => {
             
             <div className="download-buttons">
               <a 
-                href="#" 
+                href="https://apps.apple.com/us/app/invoice-maker-easy-estimates/id6749909180" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="app-store-btn"
