@@ -1,5 +1,5 @@
-// Use the provided PNG at the top of the page
-const phoneHeroImage = '/images/phone1.png'
+// Import hero image so Vite handles it in build
+import phoneHeroImage from '../assets/phone1.png'
 
 const Hero = () => {
   const scrollToDownload = () => {

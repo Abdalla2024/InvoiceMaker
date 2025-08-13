@@ -1,7 +1,7 @@
-// Swap to use the provided PNG screenshots
-const fillOutPng = '/images/fillOut.png'
-const generatePng = '/images/generate.png'
-const invoicesPng = '/images/invoices.png'
+// Import PNG screenshots so Vite handles asset paths
+import fillOutPng from '../assets/fillOut.png'
+import generatePng from '../assets/generate.png'
+import invoicesPng from '../assets/invoices.png'
 
 const Screenshots = () => {
   const screenshots = [

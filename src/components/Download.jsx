@@ -1,5 +1,5 @@
-// Use phone1.png as the download section image
-const phoneHeroImage = '/images/phone1.png'
+// Import phone image so Vite handles asset path
+import phoneHeroImage from '../assets/phone1.png'
 
 const Download = () => {
   return (
